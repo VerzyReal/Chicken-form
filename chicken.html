@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Chicken Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="download (5).jpg" type="images/x-icon">
+</head>
+<body>
+    <!-- Header -->
+     <header>
+        <h1>All your chicken needs are here.🐓🍗 </h1>
+        <p1>yummy, delicious, and complete!</p1>
+        <nav>
+            <a href=#Menu>"order here!"</a>
+             <a href=#kontak>"Kontak us!"</a>
+        </nav>
+     </header>
+     <!--Just for Today!  -->
+     <section>
+        <h2>Promo Today!</h2>
+        <img src="Bonchon's Buy 1 Get 1 Promo for 2-pc Chicken Boxed Meal on Aug 2019.jpg">
+        <p><mark>Buy 1 get 1</mark></p>
+        <ul>
+            <li>yummy</li>
+            <li>cheap</li>  
+        </ul>
+     </section>
+     <!-- Menu -->
+      <section id="Menu"></section>
+      <h2>The Menu</h2>
+      <table>
+      <tr>
+    <th>Foods</th>
+    <th>Drinks</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Fried chicken</td>
+    <td>Coca cola</td>
+    <td>9,99$</td>
+  </tr>
+  <tr>
+    <td>Chicken buy 1 get 1</td>
+    <td>Free 2 drinks!</td>
+    <td>13,99$</td>
+  </tr>
+</table>
+<!-- Section: Form order -->
+<section>
+  <h2>order here</h2>
+  <form action="https://formspree.io/f/xqpzpbyy" method="POST">
+    <label for="Order">order name:</label><br>
+    <input id="Order" name="pemesan" type="text">
+
+    <label for="email"><br>email:</label><br>
+    <input type="email" name="email" id="email"><br>
+
+    <label for="menu"><br>fried chicken</label><br>
+    <select name="menu" id="menu">
+      <option value="original fried chicken">original fried chicken</option>
+      <option value="Big fried chicken">Big fried chicken</option>
+      <option value="chicken + rice">chicken + rice</option>
+    </select>
+
+    <p>Drinks:</p>
+    <input type="checkbox" name="Drinks" id="Coca cola" value="Coca cola">  <label for="Coca cola">Coca cola</label>
+    <input type="checkbox" name="Drinks" id="Fanta" value="Fanta"> <label for="Fanta">Fanta</label>
+    <input type="checkbox" name="Drinks" id="Sprite" value="Sprite"> <label for="Sprite">Sprite</label>
+    <br><br>
+
+    <p>Type Sauces:</p>
+    <input type="radio" name="sauce" id="Spicy" value="Spicy"> <label for="Spicy">Spicy</label>
+    <input type="radio" name="sauce" id="Cheese" value="Cheese"> <label for="Cheese">Cheese</label>
+    <input type="radio" name="sauce" id="barbeque" value="Barbeque"> <label for="barbeque">barbeque</label>
+    <br><br>
+    
+    <br><br><label for="catatan">catatan:</label>
+    <br><textarea cols="50" rows="5" name="" id="catatan"></textarea>
+
+    <br><button type="submit">Order Now!</button>
+  </form>
+</section>
+
+<!--Contact Us -->
+<section id="kontak"> <br>
+    <h2>Contact Us</h2>
+    <p>📍Jl. Jendral Sudirman</p>
+    <p>📞 <a target="_blank" href="https://wa.me/62895329527565?text=I%20want%20a%20chicken">+62 895-3295-27565</a></p>
+    <p>📄 <a href="mailto:info@adibharun2010@gmail.com">Email Us</a></p>
+
+</section>
+<!-- Footer -->
+ <footer>
+  <hr>
+  <p><small>&copy; Enjoy my first website:] </small></p>
+</footer>
+
+
+
+</body>
+</html>
