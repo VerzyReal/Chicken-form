@@ -1,0 +1,196 @@
+/* ============================
+   RESET & BASE
+============================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ============================
+   HEADER
+============================ */
+header {
+  background-color: #d84315; /* oranye kecoklatan, kesan "ayam goreng" */
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+header p1 {
+  display: block; /* p1 bukan tag HTML standar, tapi tetap kita styling */
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+header nav a {
+  display: inline-block;
+  background-color: #fff;
+  color: #d84315;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 8px;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header nav a:hover {
+  background-color: #ffe0b2;
+}
+
+/* ============================
+   SECTION UMUM
+============================ */
+section {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #d84315;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ffcc80;
+  padding-bottom: 8px;
+}
+
+/* ============================
+   PROMO SECTION
+============================ */
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+mark {
+  background-color: #ffca28;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+section ul {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+/* ============================
+   TABLE / MENU
+============================ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #d84315;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #fff3e0;
+}
+
+/* ============================
+   FORM ORDER
+============================ */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+form button {
+  margin-top: 20px;
+  align-self: flex-start;
+  background-color: #d84315;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #bf360c;
+}
+
+/* ============================
+   CONTACT SECTION
+============================ */
+#kontak p {
+  margin: 8px 0;
+}
+
+#kontak a {
+  color: #d84315;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#kontak a:hover {
+  text-decoration: underline;
+}
+
+/* ============================
+   FOOTER
+============================ */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
+
+footer hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin-bottom: 10px;
+}
